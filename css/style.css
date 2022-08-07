@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #f1f3f4;
+}
+
+.form-container {
+  width: 450px;
+  border-radius: 5px;
+  padding: 20px 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background: #fff;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  padding: 10px 0;
+  padding-bottom: 0;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid gray;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: gray;
+}
+
+.btn {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  background: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #2a88c7;
+}
+
+.form-container p {
+  font-size: 14px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.navbar {
+  min-height: 70px;
+  padding: 0 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: black;
+}
+
+.home {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* flex-direction: column; */
+}
+
+.home h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+table {
+  width: 60%;
+  margin: 2rem auto;
+}
